@@ -10,8 +10,8 @@ full_name = str(input("What is your name: "))
 min_price = float(input("What is the minimum price "))
 #create a list of prices example: price_list = [69.0, 71.0, 84.5, 91.0, 67.4, 81.2, 84.6, 58.8,
 #79.3, 101.2]
-price_list = [69.0, 71.0, 84.5, 91.0, 67.4, 81.2, 84.6, 58.8,
-79.3, 101.2]
+price_list = [69.10, 71.50, 84.45, 91.50, 67.84, 81.22, 84.64, 58.88,
+79.30, 101.21]
 
 #for price in price_list
 for price in price_list:
