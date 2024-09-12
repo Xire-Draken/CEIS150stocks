@@ -1,5 +1,14 @@
 class Stock:
     def __init__(self, symbol, name, shares):
+        #This is to check if the information provided is valid or entered at all
+        if not symbol:
+            raise ValueError("Stock symbol is required. Please enter a valid symbol.")
+        if not name:
+            raise ValueError("Stock name is required. Please enter a valid name.")
+        if shares is None or shares <= 0:
+            raise ValueError("A valid number of shares is required. Please enter a positive number.")
+        
+        #If proper values are entered, then proceed with assigning values.
         self.symbol = symbol
         self.name = name
         self.shares = shares
