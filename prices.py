@@ -34,3 +34,5 @@ print(f"The total price is {total_sum:.2f}.")
 #print("Hello",full_name,"the minimum price is:",min_price)
 #print("There are",count,"prices greater than the minimum price")
 #print("The total price is:",total_sum)
+
+https://github.com/Xire-Draken/CEIS150stocks/blob/master/prices.py
