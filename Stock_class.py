@@ -17,6 +17,8 @@ class Stock:
     def add_data(self, stock_data):
         self.DataList.append(stock_data)
 
+        
+
 class DailyData:
     def __init__(self, date, close, volume):
         self.date = date
